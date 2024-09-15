@@ -1,0 +1,6 @@
+setc1 = set(["green", "blue"])
+setc2 = set(["blue", "yellow"])
+setc3 = setc2.symmetric_difference(setc1)
+setc4 = setc1.symmetric_difference(setc2)
+print(setc4)
+print(setc3)
